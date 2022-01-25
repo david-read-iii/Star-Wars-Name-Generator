@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- App name. -->
+    <string name="app_name">Star Wars Name Generator</string>
+    <string name="app_name_short">SW Name</string>
+
+    <!-- Text field hints. -->
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="city_born_hint">City Born</string>
+    <string name="mother_maiden_name_hint">Mother\'s Maiden Name</string>
+
+    <!-- Button labels. -->
+    <string name="generate_button_label">Generate</string>
+
+    <!-- Text field error messages. -->
+    <string name="string_length_error_message">Enter a string with at least %1$s letter%2$s</string>
+    <string name="string_content_error_message">Enter a string with letters only</string>
+
+    <!-- Alert dialog labels. -->
+    <string name="dialog_title_label">Your Star Wars Name</string>
+
+    <!-- Snackbar error messages. -->
+    <string name="form_error_message">Finish form or check it for errors</string>
+
+</resources>
