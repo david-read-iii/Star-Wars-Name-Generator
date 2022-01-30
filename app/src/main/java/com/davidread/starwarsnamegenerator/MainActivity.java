@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(R.string.app_name);
 
         // Initialize all View objects used in the form.
         firstNameTextInputLayout = findViewById(R.id.first_name_text_field);
@@ -177,12 +178,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Set OnClickListener for "Generate" Button.
-        generateButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                generateButtonClick();
-            }
-        });
+        generateButton.setOnClickListener((v) -> generateButtonClick());
     }
 
     /**
